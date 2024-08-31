@@ -1,0 +1,82 @@
+
+      body {
+        background-color: #ffe6f0;
+        font-family: Arial, sans-serif;
+      }
+
+      .card {
+        background-color: #ffe6f0;
+        border: none;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      .card-header {
+        background-color: #ffb6c1;
+        color: #ffffff;
+        font-weight: bold;
+        border-bottom: 2px solid #ff99cc;
+      }
+
+      .btn-primary {
+        background-color: #ff99cc;
+        border-color: #ff99cc;
+      }
+
+      .btn-primary:hover {
+        background-color: #ff6699;
+        border-color: #ff6699;
+      }
+
+      .btn-danger {
+        background-color: #ff99cc;
+        border-color: #ff99cc;
+      }
+
+      .btn-danger:hover {
+        background-color: #ff6699;
+        border-color: #ff6699;
+      }
+
+      .dropdown-menu {
+        background-color: #ffb6c1;
+        border-color: #ff99cc;
+      }
+
+      .dropdown-item {
+        color: #ffffff;
+      }
+
+      .dropdown-item:hover {
+        background-color: #ff99cc;
+      }
+
+      .task label.checked {
+        text-decoration: line-through;
+      }
+
+      .controls {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      .filters span.active {
+        color: #ff6699;
+      }
+
+      .filters span {
+        margin-right: 5px;
+        font-size: 15px;
+        color: #ff99cc;
+        cursor: pointer;
+      }
+
+      #task-list {
+        background-color: #ffe6f0;
+        border: none;
+      }
+
+      .task {
+        background-color: #ffe6f0;
+        border: none;
+      }
